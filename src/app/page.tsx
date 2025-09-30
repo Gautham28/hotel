@@ -1,5 +1,7 @@
 import Navbar from '@/components/Navbar/Navbar';
 import Stats from '@/components/stats/Stats';
+import Villas from '@/components/Villas/Villas';
+import Offerings from '@/components/Offerings/Offerings';
 
 export default function Home() {
   return (
@@ -32,6 +34,8 @@ export default function Home() {
       </div>
 
       <Stats />
+      <Villas />
+      <Offerings />
     </main>
   );
 }

@@ -46,7 +46,7 @@ export default function Stats() {
                 delay={0.2}
               />
             )}
-            <Box component="span" sx={{ fontSize: '2.5rem', color: 'white' }}>
+            <Box component="span" sx={{ fontSize: '4rem', color: 'white' }}>
               +
             </Box>
           </Typography>
@@ -104,7 +104,7 @@ export default function Stats() {
                 delay={0.4}
               />
             )}
-            <Box component="span" sx={{ fontSize: '2.5rem', color: 'white' }}>
+            <Box component="span" sx={{ fontSize: '4rem', color: 'white' }}>
               %
             </Box>
           </Typography>
@@ -163,7 +163,7 @@ export default function Stats() {
                 decimals={1}
               />
             )}
-            <Box component="span" sx={{ fontSize: '2.5rem', color: 'white' }}>
+            <Box component="span" sx={{ fontSize: '4rem', color: 'white' }}>
               /5
             </Box>
           </Typography>
