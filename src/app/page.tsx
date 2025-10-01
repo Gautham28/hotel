@@ -2,6 +2,8 @@ import Navbar from '@/components/Navbar/Navbar';
 import Stats from '@/components/stats/Stats';
 import Villas from '@/components/Villas/Villas';
 import Offerings from '@/components/Offerings/Offerings';
+import Reviews from '@/components/Reviews/Reviews';
+import FAQ from '@/components/FAQ/FAQ';
 
 export default function Home() {
   return (
@@ -36,6 +38,8 @@ export default function Home() {
       <Stats />
       <Villas />
       <Offerings />
+      <Reviews />
+      <FAQ />
     </main>
   );
 }
